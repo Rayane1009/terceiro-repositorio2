@@ -85,8 +85,19 @@ body{
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+.parametro-senha_botao {
+    background-color: var(--fundo-texto);
+    color:var(--branco)
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
-}
+
+
