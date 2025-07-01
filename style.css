@@ -114,23 +114,31 @@ body{
     cursor: pointer;
 }
 
-label { 
-    foint-size: 20px
+label {
+    font-size: 20px;
 }
 
-.barra{ 
-    backgound-color: var(--fundo-senha);
+.barra {
+    background-color: var(--fundo-senha);
     height: 30px;
-    width: 100%
+    width: 100%;
 }
 
 .forca {
     height: 30px;
     position: relative;
-    bottom; 30  px;
+    bottom: 30px;
 }
 
+.fraca {
+    width: 25%;
+    background-color: #E71B32;
 }
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
